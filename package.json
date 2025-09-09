@@ -1,0 +1,15 @@
+{
+  "name": "alexa-skill",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ask-sdk-core": "^2.12.1",
+    "ask-sdk-express-adapter": "^2.12.1",
+    "@google/generative-ai": "^0.21.0"
+  }
+}
